@@ -2,7 +2,7 @@ import axios from 'axios';
 import { ApiResponse, CloudinaryFolder, SignUploadResponse, UploadProgress } from '../types';
 
 // Configuración base de la API
-const API_BASE_URL = 'http://localhost:3003/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3003/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
