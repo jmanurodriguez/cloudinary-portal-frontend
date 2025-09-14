@@ -1,0 +1,114 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-header {
+  margin-bottom: 2rem;
+}
+
+.app-header h1 {
+  color: #646cff;
+  margin-bottom: 0.5rem;
+}
+
+.app-header p {
+  color: #888;
+  font-size: 1.1rem;
+}
+
+.app-main {
+  margin: 2rem 0;
+}
+
+.loading {
+  padding: 2rem;
+  color: #646cff;
+}
+
+.error {
+  padding: 2rem;
+  color: #ff6b6b;
+  border: 1px solid #ff6b6b;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.error button {
+  margin-top: 1rem;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+}
+
+.error button:hover {
+  background-color: #ff5252;
+}
+
+.folders h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.folder-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.folder-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.folder-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.folder-path {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.app-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+  color: #666;
+}
+
+.app-footer a {
+  color: #646cff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .folders h2 {
+    color: #fff;
+  }
+  
+  .folder-item {
+    background-color: #333;
+    border-color: #555;
+  }
+  
+  .folder-name {
+    color: #fff;
+  }
+  
+  .folder-path {
+    color: #ccc;
+  }
+  
+  .app-footer {
+    border-top-color: #333;
+  }
+}
